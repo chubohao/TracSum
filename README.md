@@ -27,13 +27,12 @@ we propose a fine-grained evaluation framework for this new task by extending th
 
 ### PAPER
 ```
-@misc{chu2025tracsumnewbenchmarkaspectbased,
-      title={TracSum: A New Benchmark for Aspect-Based Summarization with Sentence-Level Traceability in Medical Domain}, 
-      author={Bohao Chu and Meijie Li and Sameh Frihat and Chengyu Gu and Georg Lodde and Elisabeth Livingstone and Norbert Fuhr},
-      year={2025},
-      eprint={2508.13798},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.13798}, 
+@inproceedings{
+chu2025tracsum,
+title={TracSum: A New Benchmark for Aspect-Based Summarization with Sentence-Level Traceability in Medical Domain},
+author={Bohao Chu and Meijie Li and Sameh Frihat and Chengyu Gu and Georg Lodde and Elisabeth Livingstone and Norbert Fuhr},
+booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+year={2025},
+url={https://openreview.net/forum?id=GUPKWEC6eN}
 }
 ```

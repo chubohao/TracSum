@@ -27,12 +27,28 @@ we propose a fine-grained evaluation framework for this new task by extending th
 
 ### PAPER
 ```
-@inproceedings{
-chu2025tracsum,
-title={TracSum: A New Benchmark for Aspect-Based Summarization with Sentence-Level Traceability in Medical Domain},
-author={Bohao Chu and Meijie Li and Sameh Frihat and Chengyu Gu and Georg Lodde and Elisabeth Livingstone and Norbert Fuhr},
-booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
-year={2025},
-url={https://openreview.net/forum?id=GUPKWEC6eN}
+@inproceedings{chu-etal-2025-tracsum,
+    title = "{T}rac{S}um: A New Benchmark for Aspect-Based Summarization with Sentence-Level Traceability in Medical Domain",
+    author = "Chu, Bohao  and
+      Li, Meijie  and
+      Frihat, Sameh  and
+      Gu, Chengyu  and
+      Lodde, Georg  and
+      Livingstone, Elisabeth  and
+      Fuhr, Norbert",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.43/",
+    doi = "10.18653/v1/2025.emnlp-main.43",
+    pages = "844--864",
+    ISBN = "979-8-89176-332-6",
+    abstract = "While document summarization with LLMs has enhanced access to textual information, concerns about the factual accuracy of these summaries persist (e.g., hallucination), especially in the medical domain. Tracing source evidence from which summaries are derived enables users to assess their accuracy, thereby alleviating this concern. In this paper, we introduce TracSum, a novel benchmark for traceable, aspect-based summarization, in which generated summaries are paired with sentence-level citations, enabling users to trace back to the original context. First, we annotate 500 medical abstracts for seven key medical aspects, yielding 3.5K summary-citations pairs. We then propose a fine-grained evaluation framework for this new task, designed to assess the completeness and consistency of generated content using four metrics. Finally, we introduce a summarization pipeline, Track-Then-Sum, which serves as a baseline method for comparison. In experiments, we evaluate both this baseline and a set of LLMs on TracSum, and conduct a human evaluation to assess the evaluation results. The findings demonstrate that TracSum can serve as an effective benchmark for traceable, aspect-based summarization tasks. We also observe that explicitly performing sentence-level tracking prior to summarization enhances generation accuracy, while incorporating the full context further improves summary completeness. Source code and dataset are available at https://github.com/chubohao/TracSum."
 }
 ```
